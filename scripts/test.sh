@@ -13,7 +13,7 @@ trap cleanup EXIT
 cleanup() {
   # Kill the parity instance that we started (if we started one and if it's still running).
   if [ -n "$parity_pid" ] && ps -p $parity_pid > /dev/null; then
-    echo "Stopping parity instance (PID $parity_pid)"
+    echo "Stopping Ethereum/Ganache instance (PID $parity_pid)"
     kill -9 $parity_pid
   fi
   $PARITY_BINARY_PATH --chain scripts/specs/wasm-dev-chain.json --base-path parity_data db kill
