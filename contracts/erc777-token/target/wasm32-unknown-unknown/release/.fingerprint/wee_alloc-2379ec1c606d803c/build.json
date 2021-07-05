@@ -1,0 +1,1 @@
+{"rustc":0,"features":"","target":0,"profile":0,"path":0,"deps":[],"local":[{"MtimeBased":[[1625422556,148480205],"/home/ubuntu/wasm777_repo/erc777-token/contracts/erc777-token/target/wasm32-unknown-unknown/release/build/wee_alloc-2379ec1c606d803c/output"]},{"EnvBased":["WEE_ALLOC_STATIC_ARRAY_BACKEND_BYTES",null]}],"rustflags":[],"edition":"Edition2015"}

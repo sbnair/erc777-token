@@ -1,0 +1,1 @@
+{"rustc":10377385455325587324,"features":"[\"alloc\", \"rand_core\", \"std\"]","target":14685866614159890324,"profile":11870183705523825133,"path":17124871584963599113,"deps":[["rand_core v0.4.0","rand_core",10098308859450009729]],"local":[{"Precalculated":"0.3.1"}],"rustflags":[],"edition":"Edition2015"}

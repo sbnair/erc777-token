@@ -1,0 +1,1 @@
+{"rustc":0,"features":"","target":0,"profile":0,"path":0,"deps":[],"local":[{"MtimeBased":[[1625396688,91115704],"build/wee_alloc-7184cd390b820445/output"]},{"EnvBased":["WEE_ALLOC_STATIC_ARRAY_BACKEND_BYTES",null]}],"rustflags":[],"edition":"Edition2015"}

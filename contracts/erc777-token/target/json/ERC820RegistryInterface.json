@@ -1,0 +1,23 @@
+[
+  {
+    "type": "function",
+    "name": "getInterfaceImplementer",
+    "inputs": [
+      {
+        "name": "_addr",
+        "type": "address"
+      },
+      {
+        "name": "iHash",
+        "type": "bytes32"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "returnValue0",
+        "type": "address"
+      }
+    ],
+    "constant": true
+  }
+]
