@@ -33,9 +33,9 @@ start_parity() {
 }
 
 if parity_running; then
-  echo "Using existing parity instance"
+  echo "Using existing Ethereum/Ganache instance"
 else
-  printf "Starting new parity instance"
+  printf "Starting new Ethereum/Ganache instance"
   start_parity
 fi
 
