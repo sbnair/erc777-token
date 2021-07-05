@@ -16,8 +16,8 @@ cleanup() {
     echo "Stopping Ethereum/Ganache instance (PID $parity_pid)"
     kill -9 $parity_pid
   fi
-  $PARITY_BINARY_PATH --chain scripts/specs/wasm-dev-chain.json --base-path parity_data db kill
-  rm parity_data/keys/DevelopmentChain/UTC*
+  $PARITY_BINARY_PATH --chain scripts/specs/wasm-dev-chain.json --base-path ganache_data db kill
+  rm ganache_data/keys/DevelopmentChain/UTC*
 }
 
 parity_port=8545
