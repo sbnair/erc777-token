@@ -1,4 +1,4 @@
-// pwasm contracts do not use Rust's standard library
+// ERC777 contracts do not use Rust's standard library
 #![no_std]
 #![allow(non_snake_case)]
 
