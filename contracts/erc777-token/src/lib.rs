@@ -245,10 +245,10 @@ mod tests {
     use pwasm_std::String;
     use pwasm_abi::types::*;
     use pwasm_test::ext_reset;
-    use pwasm_std::keccak;
+    // use pwasm_std::keccak;
 
-    static TEST_NAME: &'static str = "TestToken";
-    static TEST_SYMBOL: &'static str = "TTK";
+    static TEST_NAME: &'static str = "CasperToken";
+    static TEST_SYMBOL: &'static str = "CSPR";
     static TEST_GRANULARITY: u64 = 100000000000000;
 
     fn test_owner_address() -> Address {
